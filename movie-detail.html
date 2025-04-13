@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Detail</title>
+    <link rel="stylesheet" href="style-movie-detail.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="logo">
+        <a href="movieapps.html">
+          <h1>Movie Time</h1>
+        </a>
+      </nav>
+
+      <nav class="option">
+        <a href="movieapps.html">
+
+          <h3>Home</h3>
+        </a>
+        <a href="movie-favorite.html">
+          <h3>My Favorite</h3>
+        </a>
+        <a href="movie-watchlist.html">
+          <h3>Watchlist</h3>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="loading">
+        <img src="ripples.svg" alt="">
+      </div>
+      <section id="movie-detail">
+        <div class="movie-hero-section">
+            <div class="movie-detail-head">
+              <img class="movie-poster" src="" alt="" />
+            </div>
+            <div class="movie-detail-body">
+              <h2 class="movie-title">Nama Film</h2>
+              <div class="box-rating flex-row">
+                <h4>Rating</h4>
+                <p class="rating">0.0</p>
+              </div>
+              <div class="box-release-date flex-row">
+                <h4>Release Date :</h4>
+                <p class="release-date">0000-00-00</p>
+              </div>
+              <div class="box-movie-overview flex-row">
+                <h4>Overview :</h4>
+                <p class="movie-overview">Default overview</p>
+              </div>
+              <div class="container-genres">
+                <h4>Genres</h4>
+                <div class="movie-genres">
+                </div>
+              </div>
+              <div class="cast-section">
+                <h4>Casters</h4>
+                <div class="container-casters">
+                  <!-- <div class="caster">
+                    <img src="https://image.tmdb.org/t/p/original/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg" alt="">
+                  </div> -->
+                </div>
+              </div>
+              <div class="trailer-watchlist">
+              </div>
+              
+              
+              
+            </div>
+          </div>
+      </section>
+
+      <div class="modal-trailer">
+        <div class="modal-body">
+            <iframe src="" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <div class="modal-cast">
+        <div class="container-cast">
+          <h1>Casters</h1>
+          <div class="container-overflow">
+          </div>
+        </div>
+      </div>
+
+    </main>
+    <script src="global.js"></script>
+    <script src="script-movie-detail.js"></script>
+  </body>
+</html>
